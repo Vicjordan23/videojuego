@@ -119,3 +119,7 @@ Mi recomendación para empezar es **Fantasma de Ayer**. Es la idea más nueva, s
 2. Prototipo jugable en HTML/JS o Godot en unos días.
 3. Probarlo con 5 personas y medir cuántas veces dicen "una más".
 4. Añadir progresión, sonido y monetización (anuncios opcionales y aspectos).
+
+## Prototipo jugable: Burbuja Cero (estilo kawaii)
+
+Abre `juego/index.html` en el navegador (móvil u ordenador). Mantén pulsado o pulsa Espacio para hincharte y suelta para encoger. La burbuja rebota sola de lado a lado: pequeña va rápida, grande va lenta y aguanta un golpe.
