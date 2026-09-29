@@ -122,4 +122,4 @@ Mi recomendación para empezar es **Fantasma de Ayer**. Es la idea más nueva, s
 
 ## Prototipo jugable: Burbuja Cero (estilo kawaii)
 
-Abre `juego/index.html` en el navegador (móvil u ordenador). Mantén pulsado o pulsa Espacio para hincharte y suelta para encoger. La burbuja rebota sola de lado a lado: pequeña va rápida, grande va lenta y aguanta un golpe.
+Abre `juego/index.html` en el navegador. En móvil: desliza con el pulgar izquierdo para mover la burbuja y mantén con el derecho para hincharte. En ordenador: mueve el ratón, y pulsa o usa Espacio para hincharte (también flechas o A/D). Recoge estrellas para desbloquear las burbujas Jabón (escudo antes) y Gas (imán de estrellas). Hay corrientes de aire que empujan y música de fondo con botón de silencio.
