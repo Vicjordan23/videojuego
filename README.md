@@ -120,6 +120,10 @@ Mi recomendación para empezar es **Fantasma de Ayer**. Es la idea más nueva, s
 3. Probarlo con 5 personas y medir cuántas veces dicen "una más".
 4. Añadir progresión, sonido y monetización (anuncios opcionales y aspectos).
 
-## Prototipo jugable: Burbuja Cero (estilo kawaii)
+## Prototipo jugable: Burbuja Cero (estilo kawaii, 2.5D)
 
-Abre `juego/index.html` en el navegador. En móvil: arrastra un dedo por la pantalla para mover la burbuja y mantén el botón HINCHAR con el otro pulgar. Hinchada atrae las estrellas y se traga los pinchos; encogida cabe por los huecos estrechos. En ordenador: mueve el ratón y pulsa (o Espacio) para hincharte. Incluye un tutorial de 3 pasos (botón ? del menú), burbujas desbloqueables con estrellas, corrientes de aire y música.
+Abre `juego/index.html` en el navegador. En móvil: arrastra un dedo por la pantalla para mover la burbuja y mantén el botón HINCHAR con el otro pulgar. Hinchada atrae las estrellas y se traga los pinchos; encogida cabe por los huecos estrechos. En ordenador: mueve el ratón y pulsa (o Espacio) para hincharte.
+
+Incluye perspectiva con profundidad, burbujas con brillo y aplastamiento, estrellas que giran, tutorial de 3 pasos, burbujas desbloqueables, corrientes de aire y música.
+
+Para publicarlo en Telegram con anuncios de Monetag, mira [TELEGRAM.md](TELEGRAM.md).
