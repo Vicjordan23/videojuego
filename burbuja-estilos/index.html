@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burbuja Cero: 5 estilos</title>
+<style>
+  :root { --bg:#f5f4fa; --fg:#1d1a2e; --muted:#5c5877; --card:#fff; --line:#dcd8ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121022; --fg:#efedfa; --muted:#a29cc4; --card:#1c1934; --line:#2f2b52; } }
+  body { margin:0; padding:24px 16px; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui,sans-serif; }
+  main { max-width:1200px; margin:0 auto; }
+  h1 { margin:0 0 4px; font-size:1.8rem; }
+  p.sub { margin:0 0 24px; color:var(--muted); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; }
+  figure { margin:0; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px; min-width:0; }
+  img { width:100%; height:auto; display:block; border-radius:10px; }
+  figcaption { margin-top:8px; font-weight:600; }
+  figcaption span { display:block; font-weight:400; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Burbuja Cero: 5 estilos visuales</h1>
+  <p class="sub">La misma pantalla de juego con cinco direcciones de arte distintas.</p>
+  <div class="grid">
+    <figure><img src="1-futurista.svg" alt="Estilo futurista"><figcaption>1. Futurista<span>Neón, rejilla y brillo holográfico.</span></figcaption></figure>
+    <figure><img src="2-clasico.svg" alt="Estilo clásico"><figcaption>2. Clásico<span>Grabado antiguo sobre pergamino.</span></figcaption></figure>
+    <figure><img src="3-retro.svg" alt="Estilo retro"><figcaption>3. Retro<span>Píxel art de recreativa de 8 bits.</span></figcaption></figure>
+    <figure><img src="4-actual.svg" alt="Estilo actual"><figcaption>4. Actual<span>Minimalista, cristal y degradados suaves.</span></figcaption></figure>
+    <figure><img src="5-kawaii.svg" alt="Estilo kawaii"><figcaption>5. Kawaii<span>Colores caramelo y personajes con cara.</span></figcaption></figure>
+  </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" font-family="'Trebuchet MS',Verdana,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fe3ff"/><stop offset="1" stop-color="#5aa9ff"/></linearGradient>
+  </defs>
+  <rect width="360" height="640" fill="url(#bg)"/>
+  <!-- clouds -->
+  <g fill="#fff" opacity=".8"><ellipse cx="70" cy="230" rx="44" ry="18"/><ellipse cx="100" cy="220" rx="30" ry="18"/><ellipse cx="290" cy="410" rx="44" ry="18"/><ellipse cx="315" cy="400" rx="26" ry="16"/></g>
+  <!-- walls: candy -->
+  <rect x="0" y="0" width="20" height="640" fill="#ff8fc7"/><rect x="340" y="0" width="20" height="640" fill="#ff8fc7"/>
+  <g fill="#fff" opacity=".7"><circle cx="10" cy="60" r="4"/><circle cx="10" cy="200" r="4"/><circle cx="10" cy="340" r="4"/><circle cx="10" cy="480" r="4"/><circle cx="350" cy="120" r="4"/><circle cx="350" cy="280" r="4"/><circle cx="350" cy="440" r="4"/></g>
+  <!-- barriers with faces -->
+  <g fill="#ffd84a" stroke="#c98a00" stroke-width="3">
+    <rect x="20" y="150" width="120" height="24" rx="12"/><rect x="200" y="150" width="140" height="24" rx="12"/>
+    <rect x="20" y="330" width="190" height="24" rx="12"/><rect x="250" y="330" width="90" height="24" rx="12"/>
+  </g>
+  <g fill="#7a4a00"><circle cx="60" cy="162" r="3"/><circle cx="90" cy="162" r="3"/><circle cx="250" cy="162" r="3"/><circle cx="290" cy="162" r="3"/><circle cx="80" cy="342" r="3"/><circle cx="130" cy="342" r="3"/><circle cx="280" cy="342" r="3"/><circle cx="310" cy="342" r="3"/></g>
+  <!-- spiky critters -->
+  <g fill="#ff5c6c" stroke="#a5202f" stroke-width="2"><polygon points="20,240 44,254 20,268"/><polygon points="340,250 316,264 340,278"/></g>
+  <!-- player with face -->
+  <circle cx="225" cy="452" r="34" fill="#e8f9ff" stroke="#fff" stroke-width="4"/>
+  <ellipse cx="212" cy="438" rx="9" ry="5" fill="#fff"/>
+  <circle cx="214" cy="456" r="4" fill="#2a2a55"/><circle cx="238" cy="456" r="4" fill="#2a2a55"/>
+  <path d="M220 468q6 6 12 0" fill="none" stroke="#2a2a55" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="205" cy="466" r="5" fill="#ff8fc7" opacity=".7"/><circle cx="247" cy="466" r="5" fill="#ff8fc7" opacity=".7"/>
+  <!-- HUD -->
+  <rect x="110" y="26" width="140" height="56" rx="28" fill="#fff"/>
+  <text x="180" y="62" fill="#2a2a55" font-size="28" font-weight="700" text-anchor="middle">856 m</text>
+  <rect x="36" y="566" width="288" height="18" rx="9" fill="#fff" opacity=".8"/>
+  <rect x="36" y="566" width="80" height="18" rx="9" fill="#ff8fc7"/>
+  <text x="180" y="616" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">¡Mantén para hincharte!</text>
+</svg>
