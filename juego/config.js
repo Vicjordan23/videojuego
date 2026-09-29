@@ -7,5 +7,5 @@ window.BC_CONFIG = {
   // Cada cuántas partidas sale un anuncio antes de jugar otra vez (0 = nunca).
   INTERSTITIAL_EVERY: 4,
   // Enlace de tu mini app, por ejemplo 'https://t.me/tu_bot/tu_app'. Activa el botón Compartir.
-  SHARE_URL: ''
+  SHARE_URL: 'https://t.me/Tuscazasbot_bot/Juego'
 };
