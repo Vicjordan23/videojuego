@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" font-family="Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a1c71"/><stop offset=".5" stop-color="#d76d77"/><stop offset="1" stop-color="#ffaf7b"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b6a8f"/><stop offset="1" stop-color="#062c45"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="640" fill="url(#sky)"/>
+  <circle cx="270" cy="250" r="46" fill="#ffe3a3" opacity=".9"/>
+  <!-- HUD -->
+  <text x="20" y="48" fill="#fff" font-size="26" font-weight="700">3.412 m</text>
+  <text x="20" y="68" fill="#ffe3c9" font-size="12">Racha perfecta x9</text>
+  <rect x="236" y="28" width="104" height="30" rx="15" fill="#3a1c71" opacity=".85"/>
+  <text x="288" y="48" fill="#ffe3a3" font-size="13" font-weight="700" text-anchor="middle">MAREA ALTA</text>
+  <!-- sea -->
+  <path d="M0 360 Q45 335 90 360 T180 360 T270 360 T360 360 V640 H0Z" fill="url(#sea)"/>
+  <path d="M0 360 Q45 335 90 360 T180 360 T270 360 T360 360" fill="none" stroke="#bff3ff" stroke-width="3"/>
+  <!-- obstacles above water -->
+  <g fill="#2a1240">
+    <path d="M250 190 l14 8 l-14 4 l-14 -4z"/><path d="M290 218 l14 8 l-14 4 l-14 -4z"/>
+  </g>
+  <rect x="300" y="290" width="14" height="70" fill="#2a1240"/>
+  <!-- obstacles below water -->
+  <path d="M240 640 L262 500 L284 640z" fill="#03192e"/>
+  <path d="M300 640 L316 540 L332 640z" fill="#03192e"/>
+  <!-- pearls under the surface -->
+  <g fill="#fff" opacity=".9"><circle cx="150" cy="430" r="6"/><circle cx="180" cy="440" r="6"/><circle cx="210" cy="430" r="6"/></g>
+  <!-- surfer on the line -->
+  <g transform="translate(90 340)">
+    <ellipse cx="0" cy="16" rx="34" ry="7" fill="#fff"/>
+    <circle cx="0" cy="-8" r="10" fill="#ffe3c9"/>
+    <path d="M0 2 v18 M-8 10 h16" stroke="#3a1c71" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- rhythm cue -->
+  <circle cx="60" cy="560" r="24" fill="#ffffff" opacity=".18"/>
+  <text x="60" y="565" fill="#fff" font-size="12" text-anchor="middle">EMERGE</text>
+  <circle cx="300" cy="560" r="24" fill="#ffffff" opacity=".18"/>
+  <text x="300" y="565" fill="#fff" font-size="12" text-anchor="middle">SUMERGE</text>
+  <text x="180" y="626" fill="#ffe3c9" font-size="12" text-anchor="middle">TOCA PARA CAMBIAR ENTRE AIRE Y AGUA · AL RITMO</text>
+</svg>

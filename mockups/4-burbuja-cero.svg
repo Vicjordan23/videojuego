@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 640" font-family="Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#062a4a"/><stop offset="1" stop-color="#0a5c8a"/>
+    </linearGradient>
+    <radialGradient id="b" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset=".35" stop-color="#7fe6ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2fb6f0" stop-opacity=".8"/>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="640" fill="url(#bg)"/>
+  <!-- walls with spikes -->
+  <rect x="0" y="0" width="18" height="640" fill="#03192e"/>
+  <rect x="342" y="0" width="18" height="640" fill="#03192e"/>
+  <g fill="#ff5f5f">
+    <polygon points="18,120 34,132 18,144"/><polygon points="18,300 34,312 18,324"/>
+    <polygon points="18,470 34,482 18,494"/><polygon points="342,210 326,222 342,234"/>
+    <polygon points="342,390 326,402 342,414"/>
+  </g>
+  <!-- barriers with gaps -->
+  <g fill="#0e3f66" stroke="#4fd0ff" stroke-width="2">
+    <rect x="18" y="150" width="120" height="16" rx="8"/><rect x="200" y="150" width="142" height="16" rx="8"/>
+    <rect x="18" y="330" width="190" height="16" rx="8"/><rect x="250" y="330" width="92" height="16" rx="8"/>
+  </g>
+  <!-- gap markers -->
+  <text x="169" y="143" fill="#7fe6ff" font-size="11" text-anchor="middle">hueco 62</text>
+  <text x="229" y="323" fill="#7fe6ff" font-size="11" text-anchor="middle">hueco 42</text>
+  <!-- small bubbles ambient -->
+  <g fill="none" stroke="#7fe6ff" stroke-width="1.5" opacity=".5">
+    <circle cx="60" cy="230" r="6"/><circle cx="300" cy="270" r="9"/><circle cx="90" cy="420" r="5"/><circle cx="280" cy="540" r="7"/>
+  </g>
+  <!-- player bubble (small, fast) -->
+  <circle cx="230" cy="450" r="26" fill="url(#b)" stroke="#dff8ff" stroke-width="2"/>
+  <ellipse cx="221" cy="440" rx="7" ry="4" fill="#fff" opacity=".8"/>
+  <path d="M230 484 v22 M222 492 v18 M238 492 v18" stroke="#7fe6ff" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <!-- HUD -->
+  <text x="180" y="50" fill="#fff" font-size="30" font-weight="700" text-anchor="middle">856 m</text>
+  <text x="180" y="70" fill="#7fe6ff" font-size="12" text-anchor="middle">ALTURA</text>
+  <!-- size meter -->
+  <rect x="36" y="572" width="288" height="14" rx="7" fill="#03192e"/>
+  <rect x="36" y="572" width="70" height="14" rx="7" fill="#4fd0ff"/>
+  <text x="36" y="608" fill="#7fe6ff" font-size="11">PEQUEÑA · RÁPIDA</text>
+  <text x="324" y="608" fill="#7fe6ff" font-size="11" text-anchor="end">GRANDE · LENTA · PROTEGIDA</text>
+  <text x="180" y="632" fill="#c9eeff" font-size="12" text-anchor="middle">MANTÉN PARA HINCHAR · SUELTA PARA ENCOGER</text>
+</svg>
